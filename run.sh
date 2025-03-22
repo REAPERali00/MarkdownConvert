@@ -5,5 +5,6 @@ for file in documents/*.md; do
 done
 
 for file in *.html; do
+  cp "$file" $HOME/Documents/share_notes/
   mv "$file" documents/
 done
